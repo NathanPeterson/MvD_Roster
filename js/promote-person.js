@@ -11,7 +11,7 @@ function promotePerson(ev){
 function promote(id, li){
   $.ajax({
     url: peopleUrl + '/' + id,
-    method: 'patch',
+    method: 'put',
     success: function(){
       alert(asdasda);
     }

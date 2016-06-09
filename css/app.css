@@ -1,0 +1,64 @@
+.header{
+  height: 400px;
+  width: 500px;
+  background-image: url(../marvelvsdc.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#title{
+  text-align: center;
+  padding-top: 200px;
+  color: white;
+  font-size-adjust: 200px;
+}
+
+#master{
+  background-color: #005e62;
+  position: absolute;
+  vertical-align: middle;
+  /*text-align: center;*/
+  width: 100%;
+  height:auto;
+}
+
+.form{
+  /*background-color: blue;*/
+  height: 50px;
+  width: 500px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#class_form{
+  text-align: center;
+  margin-top: 25px;
+  padding-top: 15px;
+}
+
+.marvel_team{
+  /*background-color: pink;*/
+  height:auto;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#people{
+
+}
+.delete{
+  color: red;
+}
+.promote{
+  color: blue;
+}
+
+.dc_team{
+  background-color: pink;
+}

@@ -17,13 +17,13 @@ function createPerson(ev){
 
 
 function addPerson(person){
-  var li = $('li.person-template')
+  var li = $('li.people-template')
       .clone()
-      .removeClass('template')
+      .removeClass('people-template')
       .attr('data-id', person.id);
 
   li.find('.person-name')
-    .html(person.name);
+    .html(person.person.name);
 
   $('#people').append(li);
 }
