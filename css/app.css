@@ -48,7 +48,13 @@
   margin-right: auto;
 }
 
-#class_form{
+#marvel_form{
+  text-align: center;
+  margin-top: 25px;
+  padding-top: 15px;
+}
+
+#dc_form{
   text-align: center;
   margin-top: 25px;
   padding-top: 15px;
