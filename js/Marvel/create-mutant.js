@@ -18,9 +18,9 @@ function createMutant(ev){
 
 
 function addMutant(mutant){
-  var li = $('li.people-template')
+  var li = $('li.marvel-template')
       .clone()
-      .removeClass('people-template')
+      .removeClass('marvel-template')
       .attr('data-id', mutant.id);
 
   li.find('.person-name')

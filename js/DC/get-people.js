@@ -2,9 +2,12 @@ $(function() {
  $.get({
    url: xternUrl,
    success: function processMutants(people) {
+     var index = 0;
      $.each(people, function(i, person) {
+       index++;
        addXtern(person);
      });
+     $('.dc_count').append(index);
    }
  });
 });
