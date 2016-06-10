@@ -4,7 +4,7 @@ function createPerson(ev){
   ev.preventDefault();
   var name = ev.currentTarget.name.value;
   $.post({
-    url: peopleUrl,
+    url: marvelUrl,
     data: {
       person: {
         name: name,
