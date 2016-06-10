@@ -10,9 +10,9 @@ $(function() {
 });
 
 function addMutant(person) {
- var li = $('li.people-template')
+ var li = $('li.marvel-template')
    .clone()
-   .removeClass('people-template')
+   .removeClass('marvel-template')
    .attr('data-id', person.id);
 
  li.find('.person-name')
