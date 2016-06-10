@@ -16,7 +16,7 @@ function addMutant(person) {
    .attr('data-id', person.id);
 
  li.find('.person-name')
-   .html(person.name);
+   .html(person.mutant_name);
 
  $('#people').append(li);
 }

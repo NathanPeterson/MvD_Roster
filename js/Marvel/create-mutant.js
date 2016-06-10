@@ -6,24 +6,25 @@ function createPerson(ev){
   $.post({
     url: mutantUrl,
     data: {
-      person: {
-        name: name,
-        promoted: false,
+      mutant: {
+        mutant_name: name,
       }
     },
-    success: addPerson
+    success: function(){
+      alert("something")//addMutant
+    }
   });
 }
 
 
-function addPerson(person){
+function addMutant(mutant){
   var li = $('li.people-template')
       .clone()
       .removeClass('people-template')
-      .attr('data-id', person.person.id);
+      .attr('data-id', mutant.id);
 
   li.find('.person-name')
-    .html(person.person.name);
+    .html(mutant.mutant_name);
 
   $('#people').append(li);
 }
