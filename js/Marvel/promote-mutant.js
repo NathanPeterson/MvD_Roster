@@ -1,21 +1,22 @@
-$(document).on('click', 'button.promote', function(ev) {
+
+$(document).on('click', 'button.marvel-promote', function(ev) {
   var li = $(ev.currentTarget).closest('li');
   var id = li.data('id');
-  promote(id, li);
+  promoteMutant(id, li);
 });
 
 
-function promote(id, li){
+function promoteMutant(id, li){
   $.ajax({
     url: mutantUrl + '/' + id,
     method: 'put',
     data: {
-      person: {
-        promoted: true,
+      mutant: {
+        power: "Saves the day single-handedly",
       }
     },
     success: function(){
-      alert("success")
+      alert("Saved the day single-handedly")
     }
   })
 }

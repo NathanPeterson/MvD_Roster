@@ -1,7 +1,6 @@
 $(document).on('click', 'button.marvel-delete', function(ev) {
   var li = $(ev.currentTarget).closest('li');
   var id = li.data('id');
-  debugger;
   deleteMutant(id, li);
 });
 
