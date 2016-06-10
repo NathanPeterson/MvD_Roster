@@ -20,9 +20,8 @@
 #master{
   background-color: #005e62;
   position: absolute;
-  vertical-align: middle;
-  /*text-align: center;*/
   width: 100%;
+  height:100%;
 }
 
 .list_parent{
