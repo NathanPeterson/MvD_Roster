@@ -13,6 +13,8 @@ function deleteMutant(id, li){
     success: function(){
       if(li){
         li.remove();
+        marvel_count--;
+        $('.marvel_count').html(marvel_count);
       }
     }
   })

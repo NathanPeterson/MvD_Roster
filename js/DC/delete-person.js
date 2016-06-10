@@ -12,6 +12,8 @@ function deletePerson(id, li){
     success: function(){
       if(li){
         li.remove();
+        dc_count--;
+        $('.dc_count').html(dc_count);
       }
     }
   })

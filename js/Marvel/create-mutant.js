@@ -27,4 +27,6 @@ function addMutant(mutant){
     .html(mutant.mutant_name);
 
   $('#people').append(li);
+  marvel_count++;
+  $('.marvel_count').html(marvel_count);
 }

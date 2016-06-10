@@ -2,12 +2,11 @@ $(function() {
  $.get({
    url: mutantUrl,
    success: function processMutants(people) {
-     index=0;
      $.each(people, function(i, person) {
-       index++;
+       marvel_count++;
        addMutant(person);
      });
-     $('.marvel_count').append(index);
+     $('.marvel_count').append(marvel_count);
    }
  });
 });

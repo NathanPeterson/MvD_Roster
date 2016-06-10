@@ -26,4 +26,6 @@ function addPerson(person){
     .html(person.person.name);
 
   $('#Rivals').append(li);
+  dc_count++;
+  $('.dc_count').html(dc_count);
 }
