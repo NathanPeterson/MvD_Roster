@@ -6,7 +6,7 @@ $(function() {
        marvel_count++;
        addMutant(person);
      });
-     $('.marvel_count').append(marvel_count);
+     $('.marvel_count').html("Hero Count: "+marvel_count);
    }
  });
 });

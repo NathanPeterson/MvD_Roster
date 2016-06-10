@@ -13,7 +13,7 @@ function deletePerson(id, li){
       if(li){
         li.remove();
         dc_count--;
-        $('.dc_count').html(dc_count);
+        $('.dc_count').html("Hero Count: "+dc_count);
       }
     }
   })

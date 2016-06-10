@@ -27,5 +27,5 @@ function addPerson(person){
 
   $('#Rivals').append(li);
   dc_count++;
-  $('.dc_count').html(dc_count);
+  $('.dc_count').html("Hero Count: "+dc_count);
 }

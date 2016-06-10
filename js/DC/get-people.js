@@ -6,7 +6,7 @@ $(function() {
        dc_count++;
        addXtern(person);
      });
-     $('.dc_count').append(dc_count);
+     $('.dc_count').html("Hero Count: "+dc_count);
    }
  });
 });

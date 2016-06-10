@@ -38,6 +38,25 @@
   display: block;
   margin-right: auto;
 }
+
+.marvel_header{
+  display:flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.marvel_count{
+  margin-left: auto;
+  margin-right: auto;
+}
+.dc_header{
+  display:flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.dc_count{
+  margin-left: auto;
+  margin-right: auto;
+}
 .marvel_form{
   /*background-color: blue;*/
   height: 50px;

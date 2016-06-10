@@ -28,5 +28,5 @@ function addMutant(mutant){
 
   $('#people').append(li);
   marvel_count++;
-  $('.marvel_count').html(marvel_count);
+  $('.marvel_count').html("Hero Count: "+marvel_count);
 }

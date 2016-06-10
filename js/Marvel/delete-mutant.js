@@ -14,7 +14,7 @@ function deleteMutant(id, li){
       if(li){
         li.remove();
         marvel_count--;
-        $('.marvel_count').html(marvel_count);
+        $('.marvel_count').html("Hero Count: "+marvel_count);
       }
     }
   })
