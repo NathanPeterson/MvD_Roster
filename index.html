@@ -3,6 +3,7 @@
  <head>
    <meta charset="utf-8">
    <title>Let's Get Ready to Rumble</title>
+   <link rel="stylesheet" href="css/font-awesome.min.css">
    <link rel="stylesheet" href="css/app.css">
  </head>
  <body>
@@ -12,41 +13,57 @@
        <!-- <h1 id="title">Let's Get Ready to Rubble!!!!</h1> -->
      </section>
 
-     <section class="form">
-      <form id="class_form">
-        <input type="text"
-               name="name"
-               placeholder="Enter name"
-               required>
-        <button type="submit">Create Person</button>
-        <!-- <button type="submit">Create Rival</button> -->
+       <section class ="list_parent">
 
-      </form>
+      <section class="marvel_section">
+       <section class="marvel_form">
+        <form id="class_form">
+          <input type="text"
+                 name="name"
+                 placeholder="Enter name"
+                 required>
+          <button type="submit">Create Marvel Hero</button>
+          <!-- <button type="submit">Create Rival</button> -->
+
+        </form>
+      </section>
+
+      <section class="marvel_team">
+       <ul id="people">
+         <h2>Marvel</h2>
+         <li class="people-template">
+           <span class="person-name"></span>
+           <button type="button" class="edit"><i class="fa fa-pencil"></i></button>
+           <button type="button" class="delete"><i class="fa fa-trash-o"></i></button>
+           <button type="button" class="promote"><i class="fa fa-star"></i></button>
+         </li>
+        </ul>
+      </section>
     </section>
 
-    <section class="marvel_team">
-     <ul id="people">
-       <h2>Marvel</h2>
-       <li class="people-template">
-         <span class="person-name"></span>
-         <button type="button" class="edit">EDIT</button>
-         <button type="button" class="delete">DELETE</button>
-         <button type="button" class="promote">PROMOTE</button>
-       </li>
-      </ul>
-    </section>
+      <section class="dc_section">
+      <section class="dc_form">
+       <form id="class_form">
+         <input type="text"
+                name="name"
+                placeholder="Enter name"
+                required>
+         <button type="submit">Create DC Hero</button>
+         <!-- <button type="submit">Create Rival</button> -->
 
-    <section class="dc_team">
-     <ul id="Rivals">
-       <h2>DC</h2>
-       <li class="template">
-         <span class="rival-name">
-           <a class = "rival" href="#">rival</a>
-         </span>
-         <button type="button" class="edit">EDIT</button>
-         <button type="button" class="delete">DELETE</button>
-       </li>
-     </ul>
+       </form>
+      </section>
+      <section class="dc_team">
+       <ul id="Rivals">
+         <h2>DC</h2>
+         <li class="template">
+           <span class="rival-name">BatMan</span>
+           <button type="button" class="edit">EDIT</button>
+           <button type="button" class="delete">DELETE</button>
+         </li>
+       </ul>
+     </section>
+   </section>
    </section>
   </div>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>

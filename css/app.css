@@ -1,6 +1,6 @@
 .header{
   height: 400px;
-  width: 500px;
+  width: 1000px;
   background-image: url(../marvelvsdc.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -23,14 +23,27 @@
   vertical-align: middle;
   /*text-align: center;*/
   width: 100%;
-  height:auto;
 }
 
-.form{
+.list_parent{
+  display:flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.marvel_section{
+  display:block;
+  margin-left: auto;
+}
+.dc_section{
+  display: block;
+  margin-right: auto;
+}
+.marvel_form{
   /*background-color: blue;*/
   height: 50px;
   width: 500px;
-  margin-bottom: 50px;
+  margin-bottom: 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -42,7 +55,7 @@
 }
 
 .marvel_team{
-  /*background-color: pink;*/
+  background-color: #950000;
   height:auto;
   width: 500px;
   margin-left: auto;
@@ -50,15 +63,33 @@
 }
 
 #people{
+  color: white;
 
 }
-.delete{
-  color: red;
+.remove{
+  color: blue;
+  background-color: red;
 }
 .promote{
   color: blue;
 }
 
 .dc_team{
-  background-color: pink;
+  background-color: #000045;
+  height:auto;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.dc_form{
+  /*background-color: blue;*/
+  height: 50px;
+  width: 500px;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#Rivals{
+  color: white;
 }
