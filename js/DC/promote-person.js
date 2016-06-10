@@ -15,7 +15,7 @@ function promote(id, li){
       }
     },
     success: function(){
-      alert("success")
+      alert("Promoted")
     }
   })
 }
