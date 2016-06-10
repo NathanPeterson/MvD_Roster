@@ -1,18 +1,18 @@
-$('#marvel_form').on('submit', createPerson);
+$('#marvel_form').on('submit', createMutant);
 
-function createPerson(ev){
+function createMutant(ev){
   ev.preventDefault();
-  var name = ev.currentTarget.name.value;
+  var marvelname = ev.currentTarget.name.value;
   $.post({
     url: mutantUrl,
     data: {
       mutant: {
-        mutant_name: name,
+        mutant_name: marvelname,
+        real_name: "Tom Brady",
+        power: "being useless"
       }
     },
-    success: function(){
-      alert("something")//addMutant
-    }
+    success: addMutant
   });
 }
 

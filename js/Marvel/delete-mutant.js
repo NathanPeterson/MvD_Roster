@@ -1,11 +1,11 @@
 $(document).on('click', 'button.delete', function(ev) {
   var li = $(ev.currentTarget).closest('li');
   var id = li.data('id');
-  deletePerson(id, li);
+  deleteMutant(id, li);
 });
 
 
-function deletePerson(id, li){
+function deleteMutant(id, li){
   $.ajax({
     url: mutantUrl + '/' + id,
     method: 'delete',
