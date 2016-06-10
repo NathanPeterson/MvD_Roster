@@ -7,7 +7,7 @@ $(document).on('click', 'button.delete', function(ev) {
 
 function deletePerson(id, li){
   $.ajax({
-    url: peopleUrl + '/' + id,
+    url: xternUrl + '/' + id,
     method: 'delete',
     success: function(){
       if(li){

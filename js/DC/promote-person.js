@@ -7,7 +7,7 @@ $(document).on('click', 'button.promote', function(ev) {
 
 function promote(id, li){
   $.ajax({
-    url: peopleUrl + '/' + id,
+    url: xternUrl + '/' + id,
     method: 'put',
     data: {
       person: {

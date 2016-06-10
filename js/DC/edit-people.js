@@ -4,7 +4,7 @@ function updateMutant(ev) {
   var name = f.name.value;
   var id = f.id.value;
   $.ajax({
-    url: peopleUrl + '/' + id,
+    url: xternURL + '/' + id,
     method: 'put',
     data: {
       person: {

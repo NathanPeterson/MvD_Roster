@@ -1,2 +1,2 @@
-var peopleUrl= 'https://xtern-roster.herokuapp.com/people'
-var rivalUrl = 'https://xtern-roster.herokuapp.com/rivalries'
+var peopleUrl = 'https://xtern-roster.herokuapp.com/people'
+var xternUrl = 'https://xtern-roster.herokuapp.com/people'
